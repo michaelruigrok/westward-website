@@ -42,27 +42,28 @@ h2 {
 	line-height: 2rem;
 }
 
-#app p {
-	font-size: 1em;
-}
-
 #title {
 	text-align: center;
 }
 
 #poem {
 	width: 40%;
+	margin-bottom: 20vh;
 }
 
-#intro {
+#poem p {
+	line-height: 2rem;
+}
+
+#intro, #details {
 	width: 50%;
 }
 
-#intro li {
+main li {
 	margin-bottom: 10px;
 }
 
-#intro > p , #intro > a {
+main p, main a {
 	font-size: 1.1rem;
 	line-height: 2.3rem;
 }
