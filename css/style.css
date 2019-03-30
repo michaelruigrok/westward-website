@@ -1,0 +1,79 @@
+#app, #app a {
+	font-family: 'Avenir', Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #2c3e50;
+}
+
+a {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.center-both {
+	display: flexbox;
+	justify-app: center;
+	height: 100%;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h3 {
+	font-size: 1.3rem;
+}
+
+h2 {
+	margin-top: 3rem;
+	font-size: 1.8rem;
+}
+
+#app {
+	padding-top: 50px;
+	margin-bottom: 1.5rem;
+}
+
+#app > * {
+	width: 50%;
+	margin: auto;
+	margin-bottom: 2rem;
+	text-align: left;
+	line-height: 2rem;
+}
+
+#app p {
+	font-size: 1em;
+}
+
+#title {
+	text-align: center;
+}
+
+#poem {
+	width: 40%;
+}
+
+#intro {
+	width: 50%;
+}
+
+#intro li {
+	margin-bottom: 10px;
+}
+
+#intro > p , #intro > a {
+	font-size: 1.1rem;
+	line-height: 2.3rem;
+}
+
+#app > .annotation > p, #app > .annotation > a {
+	font-size: 1em;
+	background-color: #E6E6E6;
+	font-family: monospace;
+}
+
+p:last-of-type {
+	margin-bottom: 3rem;
+
+}
