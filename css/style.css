@@ -48,7 +48,6 @@ h2 {
 
 #poem {
 	width: 40%;
-	margin-bottom: 20vh;
 }
 
 #poem p {
@@ -61,6 +60,12 @@ h2 {
 
 main li {
 	margin-bottom: 10px;
+	line-height: 2rem;
+}
+
+main li ul li {
+	margin-bottom: 7px;
+	line-height: 1.5rem;
 }
 
 main p, main a {
@@ -68,10 +73,20 @@ main p, main a {
 	line-height: 2.3rem;
 }
 
+#app header {
+	margin-top: 20vh;
+	margin-bottom: 9vh;
+}
+
 #app > .annotation > p, #app > .annotation > a {
 	font-size: 1em;
 	background-color: #E6E6E6;
 	font-family: monospace;
+}
+
+.blurb {
+	margin-bottom: 5rem;
+
 }
 
 p:last-of-type {
