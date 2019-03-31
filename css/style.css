@@ -89,7 +89,7 @@ main p, main a {
 
 }
 
-p:last-of-type {
+p:last-child {
 	margin-bottom: 3rem;
 
 }
