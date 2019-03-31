@@ -93,3 +93,25 @@ p:last-child {
 	margin-bottom: 3rem;
 
 }
+
+@media (orientation: portrait) {
+		#app > * {
+			width: 100%;
+		}
+
+		main p {
+			font-size: 1rem;
+		}
+
+		a {
+			overflow-wrap: break-word;
+			word-wrap: break-word;
+		}
+
+}
+
+@media (max-width: 350px) {
+	#poem p {
+		font-size: 0.8rem;
+	}
+}
